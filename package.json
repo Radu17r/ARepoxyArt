@@ -1,0 +1,36 @@
+{
+  "name": "arepoxyart",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Create art with A&R ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radu17r/MERN-app.git"
+  },
+  "author": "Radu Ioniță",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Radu17r/MERN-app/issues"
+  },
+  "homepage": "https://github.com/Radu17r/MERN-app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.7",
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "nodemon": "^2.0.6"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.2.1"
+  }
+}
